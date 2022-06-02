@@ -12,6 +12,10 @@ namespace San11Helper
 
         public bool Animation { get; set; } = false;
         public int Rank { get; set; } = 0;
+        // TODO
+        public int SkillRank { get; set; } = 0;
+        public string Name { get; set; } = string.Empty;
+        public string Skill { get; set; } = string.Empty;
         public string RankName { get; set; } = string.Empty;
         public string RecommendArm {
             get {
